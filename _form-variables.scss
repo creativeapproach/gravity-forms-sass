@@ -1,20 +1,20 @@
 $input-bg:           #fff !default;
 $input-color:        #999 !default;
-$input-border:       #ddd !default;
-$input-border-focus: #999 !default;
-$input-label:        #666 !default;
+$input-border:       #DEDEDE !default; // Changed
+$input-border-focus: #fff !default; // Updated to White #fff
+$input-label:        #CDCDCD !default; // Changed
 $input-error:        #ca3c3c !default;
-$input-shadow:       1px 1px 2px #eee inset !default;
+//$input-shadow:       1px 1px 2px #eee inset !default; Remove this
 $input-transition:   all .3s ease-in-out !default;
 
-$form-button-background:       #333 !default;
-$form-button-background-hover: #0078e7 !default;
+$form-button-background:       #1a3a5f !default; //Select Blue
+$form-button-background-hover: #0075B9 !default; // Select Nav Hover Blue
 $form-button-color:            #fff !default;
 
 $form-required: #f00 !default;
-$form-muted:    #858585 !default;
+$form-muted:    #DEDEDE !default; //Changed
 
-$form-font-size:   16px !default;
+$form-font-size:   15px !default;
 $form-line-height: $form-font-size * 1.5 !default;
 $form-space:       $form-line-height / 2 !default;
 

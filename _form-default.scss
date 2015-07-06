@@ -1,6 +1,6 @@
 label {
 	color: $input-label;
-	font-weight: 700;
+	font-weight: 300;
 }
 
 input[type="text"],
@@ -20,7 +20,7 @@ select {
 	line-height: normal;
 	display: block;
 	width: 100%;
-	box-shadow: $input-shadow;
+	//box-shadow: $input-shadow;
 	transition: $input-transition;
 
 	&:focus {
@@ -58,7 +58,7 @@ input[type="reset"],
 input[type="button"],
 button {
 	@include form-spacing(padding, $form-space $form-space * 2);
-	@include form-font-size(14px);
+	@include form-font-size(13px);
 	background: $form-button-background;
 	color: $form-button-color;
 	display: inline-block;
